@@ -2,4 +2,4 @@
 
 ## Programming
 ### Python
-#### [list](programming/python/list.md)
+- [List](programming/python/list.md)
