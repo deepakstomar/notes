@@ -1,0 +1,28 @@
+# PostgreSQL
+
+- List All Databases
+  - `\l`
+- Create Database
+  - `CREATE DATABASE <database_name>;`
+- List All Tables or Display All Tables
+  - `\d`
+- Display Table
+  - `\d <table_name>`
+- Create Table
+  - `CREATE TABLE <table_name>();`
+- `Drop Table
+  - `DROP TABLE <table_name>;`
+- Add column to table
+  - `ALTER TABLE <table_name> ADD COLUMN <column_name> <data_type>;`
+  - `ALTER TABLE person ADD COLUMN id INT;`
+- Drop or remove column from table
+  - `ALTER TABLE <table_name> DROP COLUMN <column_name>;`
+- Rename column name
+  - `ALTER TABLE <table_name> RENAME COLUMN <old_column_name> TO <new_column_name>;`
+  - `ALTER TABLE person RENAME COLUMN name TO username;`
+- Insert Row
+  - `INSERT INTO <table_name>(<column_name>) VALUES(<values>);`
+  - `INSERT INTO person(id, username) VALUES(1, 'Deepak');`
+- Delete Row
+  - `DELETE FROM <table_name> WHERE <condition>;`
+  - `DELETE FROM person WHERE username='Deepak';`
