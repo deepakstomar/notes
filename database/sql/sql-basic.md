@@ -1,32 +1,25 @@
-SQL Basic
-=========
+# SQL Basic Commands
 
-Basic Commands
---------------
-
-- SELECT: It is use to select column which we want as output
-
-  - **SELECT**: It is use to select column which
-- WHERE: It is use to provide condition
+- SELECT
+- WHERE
 - AND
 - OR
 - NOT
 - BETWEEN
 - FILTERING REVIEW
 
-Intermediate Commands
----------------------
+## SELECT
 
-- SUM
-- AVG
-- COUNT
+## WHERE
 
-### SELECT
+## AND, OR, NOT 
 
-### WHERE
+## BETWEEN
 
-### AND, OR, > [!NOTE]
+## IN
 
-### BETWEEN
+## LIKE
 
-### FILTERING REVIEW
+## FILTERING REVIEW
+
+## ORDER BY
