@@ -34,7 +34,7 @@ If we want to represent a group of individual object as a single entity than we 
 It is interface which contains common methods.
 
 - If we want to represent a group of individual object as a single entity then we should go for Collection.
--Collection Interface defines most common methods which are applicable for any collection object.
+  -Collection Interface defines most common methods which are applicable for any collection object.
 - In general Collection Interface is considered as root interface of Collection Framework.
 - There is no concrete class which implements Collection Interface directly.
 
@@ -52,10 +52,10 @@ If we want to represent a group of individual objects as a single entity where d
 
 - **Collection(I)**
   - **List(I)**: 1.2v
-    - *ArrayList*: 1.2v
-    - *LinkedList*: 1.2v
+    - _ArrayList_: 1.2v
+    - _LinkedList_: 1.2v
     - **Vector**: 1.0v
-      - *Stack*: 1.0v
+      - _Stack_: 1.0v
 
 :bulb: Note: In 1.2 version Vector and Stack classes are re-engineered to implement List interface.
 
@@ -67,8 +67,8 @@ If we want to represent a group of individual objects as single entity where dup
 
 - **Collection (I)**
   - **Set(I)**: 1.2v
-    - *HashSet*: 1.2v
-    - *LinkedHashSet*: 1.4v
+    - _HashSet_: 1.2v
+    - _LinkedHashSet_: 1.4v
 
 ### SortedSet (I)
 
@@ -90,4 +90,28 @@ It contains several methods for navigation perposes.
   - **Set(I)**: 1.2v
     - **SortedSet(I)**: 1.2v
       - **NavigableSet**: 1.6v
-        - *TreeSet*: 1.2v
+        - _TreeSet_: 1.2v
+
+#### Difference between **List** and **Set**.
+
+|           List            |              Set              |
+| :-----------------------: | :---------------------------: |
+|  Duplicates are allowed   |  Duplicates are not allowed   |
+| Insertion order preserved | Insertion order not preserved |
+
+### Queue
+
+It is the child interface of Collection.
+
+If we want to represent group of object **prior to processing** then we should go for **Queue**.
+
+Usually **Queue** follows FIFO order but based on our requirement we can implement our own priority.
+
+**Example:** Before sending a mail all email ids, we have to store in some data structure. In which order we added mail ids in the same order only mail should be delivered.
+
+- **Collection (I)**
+  - **Queue (I)**: 1.5v
+    - _Priority Queue_: 1.5v
+    - _Blocking Queue_: 1.5v
+      - _PriorityBlockingQueue_: 1.5v
+      - _LinkedBlockingQueue_: 1.5v
