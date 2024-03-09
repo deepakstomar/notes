@@ -22,5 +22,8 @@ The `Collections` class is a static utility class that provides a variety of con
   - `isEmpty(Collection c)`: Checks if a collection is empty.
 - **Unmodifiable collections:**
   - Provides methods to create unmodifiable versions of existing collections.
+- **Get synchronized object:**
+  - `public static Set synchronizedSet(Set s)`: Get synchronized object of Set.
+  - `public static Map synchronizedMap(Map m)`: Get synchronized object of Map.
 
 ## 2. Arrays
