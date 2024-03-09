@@ -20,9 +20,9 @@
 
 ## Constructors
 
-- **`LinkedList l = new LinkedList();`**
+- **`LinkedList l = new LinkedList()`**
   - Creates an empty LinkedList.
-- **`ArrayList l = new ArrayList(Collection c);`**
+- **`LinkedList l = new LinkedList(Collection c)`**
   - Creates an LinkedList containing the elements of the given collection.
 
 ## Linked class specific Methods
