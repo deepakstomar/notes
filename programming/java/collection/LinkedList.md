@@ -44,7 +44,7 @@ LinkedList provides additional methods compared to the standard Collection inter
 - `Object removeFirst()`: Removes and returns the first element in the list.
 - `Object removeLast()`: Removes and returns the last element in the list.
 
-## :bulb:Important Notes
+## :bulb: Important Notes
 
 - **Serializable and Cloneable:** Collection classes implement `Serializable` and `Cloneable` for object transfer and duplication.
 - **RandomAccess Interface:** LinkedList does not implements it, making random access slower.
