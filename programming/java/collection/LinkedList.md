@@ -49,6 +49,8 @@ LinkedList provides additional methods compared to the standard Collection inter
 - **Serializable and Cloneable:** Collection classes implement `Serializable` and `Cloneable` for object transfer and duplication.
 - **RandomAccess Interface:** LinkedList does not implements it, making random access slower.
 
+## Demo Code
+
 ```java
 class LinkedListDemo {
     public static void main(String[] args) {
