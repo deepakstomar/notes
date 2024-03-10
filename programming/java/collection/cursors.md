@@ -163,6 +163,8 @@ public class Test {
 }
 ```
 
+## Cursors Comparision
+
 | Property          | Enumeration                                       | Iterator                                           | ListIterator                              |
 | ----------------- | ------------------------------------------------- | -------------------------------------------------- | ----------------------------------------- |
 | Where can apply?  | Only for legacy classses                          | For any Collection object                          | Only for List object                      |
