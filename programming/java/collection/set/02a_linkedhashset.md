@@ -15,7 +15,7 @@ It is exactly same as `HashSet` (include contructors and methods). Except the fo
 ```java
 import java.util.LinkedHashSet;
 
-public class HashSetDemo {
+public class LinkedHashSetDemo {
 
     public static void main(String[] args) {
         LinkedHashSet h = new LinkedHashSet();
