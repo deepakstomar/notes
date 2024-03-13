@@ -1,8 +1,10 @@
-# TreeSet Class
+# TreeSet ClassThe
+
+`TreeSet` class in Java provides a set implementation that utilizes a balanced tree for efficient storage and retrieval of elements.
 
 ## Overview
 
-The `TreeSet` class in Java provides a set implementation that utilizes a balanced tree for efficient storage and retrieval of elements. It offers the following key characteristics:
+It offers the following key characteristics:
 
 - **Underlying Data Structure:** Balanced Tree (ensures efficient operations)
 - **Duplicate Objects:** Not Allowed (maintains unique elements)
