@@ -10,6 +10,10 @@ It is exactly same as `HashSet` (include contructors and methods). Except the fo
 | Insertion order           | Not preservered | Preservered                             |
 | Introduction              | Java 1.2        | Java 1.4                                |
 
+> :bulb:**Note:**
+>
+> In general, we can use `LinkedHashSet` to develop **cache-based** applications where duplicates are not allowed and insertion order is preserved.
+
 ## Demo Code
 
 ```java
@@ -31,7 +35,3 @@ public class LinkedHashSetDemo {
     }
 }
 ```
-
-:bulb:**Note:**
-
-In general, we can use `LinkedHashSet` to develop **cache-based** applications where duplicates are not allowed and insertion order is preserved.
