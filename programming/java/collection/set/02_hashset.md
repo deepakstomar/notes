@@ -33,12 +33,13 @@ System.out.println(h.add("Deepak")); // false
 ## Constructors
 
 - **`HashSet h = new HashSet()`**
+
   - Creates an empty HashSet with a default initial capacity of 16.
   - Default **fill ratio (load factor)** 0.75.
 
-:bulb:**Note:** Fill Ratio / Load Factor
+  :bulb:**Note:** Fill Ratio / Load Factor
 
-After filling how much ratio a new HashSet object will be created, this is ratio is called Fill Ratio or Load Factor. For example Fill Ratio 0.75 mean, after filling 75% ratio a new HashSet object will be created.
+  After filling how much ratio a new HashSet object will be created, this is ratio is called Fill Ratio or Load Factor. For example Fill Ratio 0.75 mean, after filling 75% ratio a new HashSet object will be created.
 
 - **`HashSet h = new HashSet(int initialCapacity)`**
   - Creates an empty HashSet with the specified initial capacity.
