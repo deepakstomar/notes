@@ -17,11 +17,7 @@ It is exactly same as `HashMap` (include contructors and methods). Except the fo
 ## Demo Code
 
 ```java
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Map;
-import java.util.Set;
+import java.util.LinkedHashMap;
 
 public class HashMap {
 
