@@ -9,6 +9,7 @@ It is also called as **Single Abstract Method** SAM interface.
 ## Functional Interface w.r.t. Inheritance
 
 **Case-1: (Valid case)** An interface extends Functional Interface and child interface does not contain any abstract method, then child interface is also Functional Interface.
+
 ```java
 @FunctionalInterface
 interface P {
@@ -22,6 +23,7 @@ interface C extends P {
 ```
 
 **Case-2: (Valid case)** In the child interface, we can define exactly same abstract method as parent interface.
+
 ```java
 
 @FunctionalInterface
@@ -36,8 +38,8 @@ interface C extends P {
 ```
 
 **Case-3: (Invalid case)** In the child interface we can't define any new abstract methods otherwise we will get compile time error.
-```java
 
+```java
 @FunctionalInterface
 interface P {
   public void m1();
@@ -48,7 +50,9 @@ interface C extends P {
   public void m2();
 }
 ```
-**Case-4: (Valid case)**
+
+**Case-4: (Valid case):**
+
 ```java
 @FunctionalInterface
 interface P {

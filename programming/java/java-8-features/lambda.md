@@ -1,6 +1,7 @@
 # Lambda Expression
 
 ## What is Lambda expression?
+
 Lambda expression is anonymous function, which not having name, modifier and return type.
 
 ## Benefits of Lambda expression
@@ -11,13 +12,17 @@ Lambda expression is anonymous function, which not having name, modifier and ret
 - Enable parallel processing.
 
 ### Example Lambda Expression
+
 ```java
 () -> System.out.println("This is lambda expression.")
 ```
 
 ## Functional Interface implementation
+
 ### Example-01
- Without Lambda Expression
+
+**Without Lambda Expression:**
+
 ```java
 // Without Lambda Expression
 @FunctionalInterface
@@ -39,7 +44,8 @@ class Main {
 }
 ```
 
-With Lambda expression
+**With Lambda expression:**
+
 ```java
 // With Lambda expression
 @FunctionalInterface
@@ -56,7 +62,9 @@ class Main {
 ```
 
 ### Example-02
-Without Lambda Expression
+
+**Without Lambda Expression:**
+
 ```java
 // Without Lambda Expression
 @FunctionalInterface
@@ -79,7 +87,8 @@ class Main {
 }
 ```
 
-With Lambda expression
+**With Lambda expression:**
+
 ```java
 // With Lambda expression
 @FunctionalInterface
